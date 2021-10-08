@@ -1,0 +1,141 @@
+/* secction 1 */
+
+#logo {
+  background-color: #E9967A;
+}
+
+.logoimg {
+
+  width: 75px;
+  margin-left: 105px;
+}
+
+.website {
+  background-color: #fef2f1;
+}
+
+.titleName {
+  position: absolute;
+  text-align: right;
+  padding-left: 4%;
+  padding-top: 2%;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+
+hr {
+  border-top: 8px solid #000;
+  height: 2rem;
+  width: 90%;
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+
+/* section-2 */
+
+.diseasename {
+
+  font-size: 4rem;
+}
+
+.diseasetext {
+  
+  font-size: x-large;
+  padding-right: 50%;
+}
+
+.text{
+  font-size: 4rem;
+}
+
+
+
+
+
+.serviceBox{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 25px 0 0;
+  margin: 0 -5px;
+  position: relative;
+}
+.serviceBox:before{
+  content: '';
+  border: 2px solid #000;
+  border-radius: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1;
+}
+.serviceBox .service-icon{
+  color: #222;
+  font-size: 50px;
+  margin: 0 auto 30px;
+}
+.serviceBox .service-content{
+  background: #A0D543;
+  padding: 25px 30px;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+}
+.serviceBox .service-content:before{
+  content: '';
+  background-color: #A0D543;
+  height: 30px;
+  width: 30px;
+  transform: translateX(-50%) rotate(45deg);
+  position: absolute;
+  left: 50%;
+  top: -13px;
+}
+.serviceBox .title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.serviceBox .description{
+  color: #000;
+  font-size: 13px;
+  line-height: 23px;
+  margin: 0;
+}
+.serviceBox.darkgreen .service-content{ background-color: #44D1A3; }
+.serviceBox.darkgreen .service-content:before{ background-color: #44D1A3; }
+.serviceBox.blue .service-content{ background-color: #42D6E5; }
+.serviceBox.blue .service-content:before{ background-color: #42D6E5; }
+.serviceBox.darkblue .service-content{ background-color: #4584DF; }
+.serviceBox.darkblue .service-content:before{ background-color: #4584DF; }
+@media only screen and (max-width:990px){
+  .serviceBox{ margin: 0 0 30px; }
+}
+
+.images{
+  width: 800px;
+  height: 500px;
+}
+
+.texthed{
+  color:saddlebrown;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.textpar{
+  text-align: left;
+  padding-left: 15px;
+}
